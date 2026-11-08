@@ -345,5 +345,9 @@ body {
     bottom: 50px;
     right: 15px;
 }
-  
+@media screen and (max-width: 600px) {
+  .image-link {
+    bottom: 50px;
+    right: 15px;
+}  
 }
