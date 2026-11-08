@@ -342,7 +342,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .image-link {
-    bottom: 100px;
+    bottom: 50px;
     right: 15px;
 }
   
