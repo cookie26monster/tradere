@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Social Media Channels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+<style>
+body {
+    background-color: #050505;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+     url('road3.png');
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+    #myBtn {
+      background-color: #cdee12;
+      color: #000000;
+    }
+</style>
+
+</head>
+
+<body>
+<a id="top"></a>
+<header>
+
+    <div class="logo-area">
+        <img src="tread2.png" alt="Tradere logo">
+        <div class="logo">
+            Tr&#257dere
+            <h3><strong>Entrust&nbsp;&rArr;&nbsp;Convey&nbsp;&rArr;&nbsp;Deliver.</strong></h3>
+        </div>
+    </div>
+
+<button class="menu-button" id="menuButton"
+        aria-label="Open menu"
+        aria-expanded="false">
+    ☰
+</button>
+
+<nav id="sideMenu">
+    <button class="close-menu" id="closeMenu"
+            aria-label="Close menu">
+        &times;
+    </button>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="manvan.html">Man & Van</a>
+        <a href="services.html">Driver</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+    <main>
+
+        <h1>Do You Need A Man With A Van</h1>
+
+<p><strong>Why not try your local reliable man with van service</strong></p>
+<p>Local means we know the streets and the quirks of the area that no national courier or delivery service can match. When you book with us, you are not a job number to be ticked off a list as fast as possible — you're a neighbour. We are not a chap-the-door-and-run service, but if that's what you want — in, done and out of your hair — that's exactly what you'll get. We show up when we say we will and treat every job, whether it's a single item or a full load, with the same care we would expect for someone in our own family</p>
+<p>Every move can be different and we will plan around yours. From the first call, we'll talk through exactly what you need and tailor a service to you're requirements</p>
+<p><strong>Fully insured&nbsp;&nbsp;&nbsp;&nbsp; Local&nbsp;&nbsp;&nbsp;&nbsp; Reliable&nbsp;&nbsp;&nbsp;&nbsp; Tailored to you&nbsp;&nbsp;&nbsp;&nbsp; That's the standard&nbsp;&nbsp;&nbsp;&nbsp; Every single time</strong></p>
+<p>On the day, you will get someone who takes genuine pride in the job. Careful handling, secure transport and precise placement. If you need a hand with assembly, packaging, or a difficult squeeze, all you have to do is ask. One man or two, just let us know</p>
+<p>Single or multiple item collection / delivery / assembly</p>
+<p>Domestic or Commercial</p>
+<p>IKEA | Argos | B&Q | Gumtree | Facebook Marketplace | Ebay | Electrical retailer | Shop or Warehouse</p>
+
+        <a class="button" href="#">Instagram</a>
+
+        <a class="button" href="#">Facebook</a>
+
+        <a class="button" href="#">TikTok</a>
+
+        <a class="button" href="#">Twitter</a>
+
+    </main>
+
+<div class="bottom-bar">
+<a class="myBtn" href="#"  id="myBtn" class="back-to-top">^^^&nbsp; Back to Top &nbsp;^^^</a>
+<a href="#" class="image-link"> <img src="WZlogo.png" alt="Description"> <p>site design by web<span class="circled-letter"><strong>Z</strong></span>illa</p></a>
+</div>
+
+<footer>
+Tr&#257dere is a trading name of JOHN KILBRIDE LIMITED <strong>|</strong> Registered in Scotland SC825566
+</footer>
+
+<script>
+const menu = document.getElementById('sideMenu');
+const menuButton = document.getElementById('menuButton');
+const closeButton = document.getElementById('closeMenu');
+
+function openMenu() {
+    menu.classList.add('open');
+    menuButton.setAttribute('aria-expanded', 'true');
+}
+
+function closeMenu() {
+    menu.classList.remove('open');
+    menuButton.setAttribute('aria-expanded', 'false');
+}
+
+menuButton.addEventListener('click', openMenu);
+closeButton.addEventListener('click', closeMenu);
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeMenu();
+    }
+});
+</script>
+
+</body>
+
+</html>

@@ -221,11 +221,6 @@ footer a:hover {
     }
 }
 
-@media (max-width: 1200px) and (orientation: landscape) {
-    header nav {
-        margin-top: 2mm;
-    }
-}
 
 .menu-button {
     position: fixed;
@@ -242,7 +237,7 @@ footer a:hover {
 }
 .menu-button:hover {
     background: #36a048;
-    color: #474646;
+    color: #000000;
     transform: scale(1.1);
     transition: 0.3s ease;
 }
@@ -279,7 +274,7 @@ footer a:hover {
     padding: 5px 0;
 }
 #sideMenu a:hover {
-    color: #36a048;
+    color: #e72ff8;
     padding-left: 10px;
     transition: 0.3s ease;
     border-bottom-color: #00ff2a;
@@ -363,13 +358,4 @@ body {
   margin-left: 0.35px;
   margin-right: 0.9px;
   vertical-align: -0.08em;
-}
-
-@media screen and (max-width: 768px) {
-  .image-link {
-    bottom: 70px;
-    right: 15px;
-    margin-bottom: 30px;
-}
-  
 }
